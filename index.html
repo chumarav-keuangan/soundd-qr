@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
-  <audio autoplay>
+<body onclick="document.getElementById('audio').play()">
+
+  <h2>Tap layar untuk memutar suara</h2>
+
+  <audio id="audio">
     <source src="sound.mp3" type="audio/mpeg">
   </audio>
-  <p>Jika suara belum terdengar, sentuh layar sekali.</p>
+
 </body>
 </html>
